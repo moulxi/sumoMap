@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2023-08-28 11:50:43 by Eclipse SUMO netedit Version 1.11.0
+<!-- generated on 2023-08-29 06:31:19 by Eclipse SUMO netedit Version 1.11.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <output>
@@ -39,14 +39,16 @@
         </interval>
     </rerouter>
     
-        <rerouter id="rerouter_2" edges="E4">
+    <rerouter id="rerouter_2" edges="E4">
         <interval end="1e9">
            <destProbReroute id="E5"/>
         </interval>
     </rerouter>
-    <rerouter id="rerouter_3" edges="E5">
+    <rerouter id="rerouter_2" edges="E5">
         <interval end="1e9">
            <destProbReroute id="E4"/>
         </interval>
     </rerouter>
+    
+    
 </additionals>
